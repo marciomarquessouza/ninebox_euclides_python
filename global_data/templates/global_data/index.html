@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% if latest_employees %}
+    <ul>
+    {% for employee in latest_employees %}
+        <li><a href="/global_data/{{ employee.id }}/">{{ employee.person.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No employees are available.</p>
+{% endif %}
+</body>
+</html>
