@@ -1,6 +1,7 @@
-.idea
-/venv/*
-/global_data/__pycache__/*
-/global_data/migrations/*
-/ninebox/_pycache__/*
-/global_data/tests.py
+# Ignore the file README.txt
+README.txt
+.idea/*
+global_data/migrations/*
+global_data/__pycache__
+ninebox/__pycache__
+venv

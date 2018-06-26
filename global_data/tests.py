@@ -1,9 +1,10 @@
 import unittest
 from global_data.models import Year
 
+
 class TestBase(unittest.TestCase):
     """
-    Basic Models Tests
+    Basic Models Tests - Anything
     """
 
     def testYear(self):
