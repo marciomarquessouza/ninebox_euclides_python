@@ -1,2 +1,6 @@
 .idea
-venv
+/venv/*
+/global_data/__pycache__/*
+/global_data/migrations/*
+/ninebox/_pycache__/*
+/global_data/tests.py
